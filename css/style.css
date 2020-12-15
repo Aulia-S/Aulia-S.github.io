@@ -7,7 +7,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #aaa;
+    color: rgb(214, 214, 214);
     overflow: hidden;
 }
 
@@ -28,7 +28,7 @@ hr {
 }
 
 section {
-    min-height: 600px;
+    min-height: 300px;
 }
 
 .pKiri,
@@ -63,8 +63,15 @@ section {
     transform: translate(0, 0);
 }
 
-.contact {
-    min-height: 800px;
+.contact-button a{
+    color: #333;
+    font-size: 1.6rem;
+    display: block;
+    outline: 1px solid lightblue;
+}
+
+.contact-button a:hover {
+    background-color: rgb(103, 198, 230);
 }
 
 footer {
